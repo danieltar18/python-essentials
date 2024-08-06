@@ -28,12 +28,13 @@ This collection of notebooks is designed to provide a comprehensive introduction
 ![Last 4 Quarters - INTC Close Price and Moving AVG-s](data/charts/last_4_quarters.png)
 ![XGBRegressor - INTC Close price last 90 day daily prediction](data/charts/last_90_day_prediction.png)
 
-# Achieved: 
-Using Timeseriessplit to create a forward moving train-test index split, tested on 2000 followin days the results are:
-MSE: 1.2484
-RMSE: 1.1731
-MAE: 0.7197
-MAPE: 0.0160 (~1.6%)
+Achieved: 
+Using TimeSeriesSplit from scikit-learn, I create a series of forward-moving train-test splits for time series data. Each split uses the past data as the training set and tests on the subsequent 2000 days. Here are the results:
+
+- **MSE**: 1.2484
+- **RMSE**: 1.1731
+- **MAE**: 0.7197
+- **MAPE**: 0.0160 (~1.6%)
 
 ## Getting Started
 
