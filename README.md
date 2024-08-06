@@ -22,7 +22,7 @@ This collection of notebooks is designed to provide a comprehensive introduction
 - **Loops and Control Structures.ipynb**: Teaches various looping techniques and control flow statements in Python.
 - **Practical Usage.ipynb**: Demonstrates practical applications and real-world usage of Python concepts. Analysing Intel (INTC) Stock Close Prices and developing a predictive XGBoost model.
 
-# Some charts from the Practical Usage Notebook:
+## Some charts from the Practical Usage Notebook (INTC Analysis):
 
 ![Intel Corporation (INTC) - Daily Close Price](data/charts/intc_daily_close_price.png)
 ![Last 4 Quarters - INTC Close Price and Moving AVG-s](data/charts/last_4_quarters.png)
